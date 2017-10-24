@@ -1,0 +1,124 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	font-family: arial;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.p {
+	
+	font-family: helvetica;
+	
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #000000;
+    line-height: 1.8;
+}
+
+/*Parallax*/
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image*/
+.bgimg-1 {
+    background-image: url("harryconner.jpg");
+    min-height: 100%;
+}
+
+/* Second image*/
+.bgimg-2 {
+    background-image: url("cars.jpg");
+    min-height: 400px;
+	height:100%;
+}
+
+
+/* Third image*/
+.bgimg-3 {
+    background-image: url("lgrey.png");
+    min-height: 400px;
+	color: black;
+}
+
+.bgimg-7 {
+    background-image: url("mountain.jpg");
+    min-height: 92%;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+#backgroundpicture1 {
+	background-image: url("gradient.jpg");
+	
+}
+/*
+#notes {
+	float:;
+	
+}
+*/
+
+#review{
+	color:black;
+	
+}
