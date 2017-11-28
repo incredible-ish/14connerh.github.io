@@ -9,11 +9,11 @@
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <link rel="icon" type="image/png" href="https://unsplash.com/@manufactured?photo=gI4lxtU7NHI" />
 </head>
-<body  id="backgroundpicture1">
+<body>
 
 <ul>
   <li><a href="index.html">Home</a></li>
-  <li><a href="#">Ambitions</a></li>
+  <li><a href="ambitions.html">Ambitions</a></li>
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">GCSE Course Work</a>
     <div class="dropdown-content">
@@ -35,12 +35,45 @@
     </div>
   </li>
 </ul>
+<center>
+<div class="jumbotron">
+  <h1>Boolean Logic</h1>
+  <div class="panel panel-default">
+    <div class="panel-body">
+	    <p>Something that is used a lot in a program is Boolean Logic.</p>
+		<p>We often use this when typing things such as 'IF True:' etc.</p>
+		<p>In this chapter we looked at different methods of using Boolean Logic, including making flowcharts showing the diagrams, and making truth tables.</p>
+	</div>
+  </div>
+</div>
 
-<article>
-  <h1>Chapter 15</h1>
-  <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-</article>
+<iframe src="https://docs.google.com/presentation/d/145EmchNQxZOPdOt2UvjQWUxYD5QIHmlJLe85bKWHzJo/edit#slide=id.p" width = '800' height = '500'></iframe>
+<br></br><br></br>
+<iframe src="https://drive.google.com/open?id=1tUy2TBeoxYRkxf52cBLy5F0K-UjWubyDRPorGiW6dYM&authuser=0" width = '800' height = '500'></iframe>
+<br></br><br></br>
+<div id="notes" class="jumbotron">
+  <h1>Notes</h1>
+  <div class="panel panel-default">
+    <div class="panel-body">
+	    <p>For truth tables, there are gates. These have an input and an output.</p>
+		<br></br><p>NOT gate - also known as inverter. The output is the opposite of the input, e.g 0 input = 1 output, or TRUE input = FALSE output.</p>
+		<br></br><p>AND gate - two inputs. If both are TRUE or both are 1, the output is TRUE or 1. Any other combination is FALSE, or 2.</p>
+		<br></br><p>OR gate - two inputs. If both inputs are FALSE, or 0, then the output is false. Any other combination has a TRUE, or 1 output.</p>
+		<br></br><br></br>
+	</div>
+  </div>
+</div>
+<script>
 
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+</script>
 </body>
 </html>

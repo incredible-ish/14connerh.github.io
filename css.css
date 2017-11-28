@@ -97,6 +97,14 @@ body, html {
     background-image: url("mountain.jpg");
     min-height: 92%;
 }
+.bgimg-8 {
+    background-image: url("skyline.jpg");
+    min-height: 92%;
+}
+.bgimg-9 {
+    background-image: url("skimeme.jpg");
+    min-height: 92%;
+}
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
